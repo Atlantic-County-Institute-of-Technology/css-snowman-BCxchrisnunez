@@ -8,7 +8,7 @@
     top: 555px;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.15);
 
 }
 
@@ -21,7 +21,7 @@
     bottom: 325px;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.15);
     
 }
 
@@ -34,11 +34,10 @@
     bottom: 190px;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.15);
 }
 
 /* *-- snowman buttons -- */
-
 .buttons-one {
     width: 30px;
     height: 30px;
@@ -73,7 +72,6 @@
 }
 
 /* *-- snowman eyes -- */
-
 .left-eye {
     width: 25px;
     height: 25px;
@@ -108,6 +106,62 @@
     transform: translateX(-50%);
 }
 
+/* *-- snowman coal mouth -- */
+.coal-one {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    left: 952px;
+    bottom: 168px;
+    transform: translateX(-50%);
+}
+
+.coal-two {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    left: 975px;
+    bottom: 185px;
+    transform: translateX(-50%);
+}
+
+.coal-three {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    left: 995px;
+    bottom: 210px;
+    transform: translateX(-50%);
+}
+
+.coal-four {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    left: 927px;
+    bottom: 203px;
+    transform: translateX(-50%);
+}
+
+.coal-five {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    left: 905px;
+    bottom: 225px;
+    transform: translateX(-50%);
+}
+
 /* *-- snowman branch arms -- */
 .leftbranch-arm {
     width: 200px;
@@ -131,8 +185,116 @@
     z-index: -1;
 }
 
+.twigfinger-one {
+    width: 60px;
+    height: 8px;
+    background-color: rgb(107, 22, 22);
+    position: relative;
+    left: 600px;
+    bottom: 0px;
+    transform: rotate(-60deg);
+}
+
+.twigfinger-two {
+    width: 40px;
+    height: 8px;
+    background-color: rgb(107, 22, 22);
+    position: relative;
+    left: 600px;
+    bottom: 24px;
+    transform: rotate(-30deg);
+}
+
+.twigfinger-three {
+    width: 50px;
+    height: 8px;
+    background-color: rgb(107, 22, 22);
+    position: relative;
+    left: 1235px;
+    bottom: 20px;
+    transform: rotate(60deg);
+}
+
+.twigfinger-four {
+    width: 40px;
+    height: 8px;
+    background-color: rgb(107, 22, 22);
+    position: relative;
+    left: 1248px;
+    bottom: 43px;
+    transform: rotate(30deg);
+}
+
+/* *-- snowman hat -- */
+.hat-brim {
+    width: 220px;
+    height: 30px;
+    background-color: black;
+    position: relative;
+    left: 50%;
+    bottom: 450px;
+    transform: translateX(-50%);
+}
+
+.hat-top {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    left: 50%;
+    bottom: 625px;
+    transform: translateX(-50%);
+}
+
+.ribbon {
+    width: 150px;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    left: 50%;
+    bottom: 650px;
+    transform: translateX(-50%);
+}
+
+/* *-- snowman scarf -- */
+.scarf {
+    width: 225px;
+    height: 35px;
+    border-left: 10px ;
+    border-right: 10px ;
+    border-top: 10px ;
+    border-bottom: 10px ;
+    border-radius: 15px;
+    background-color: rgb(189, 22, 22);
+    position: relative;
+    left: 50%;
+    bottom: 462px;
+    transform: translateX(-50%);
+}
+
+.stripes {
+    background: repeating-linear-gradient(
+        90deg,
+        rgb(189, 22, 22),
+        rgb(189, 22, 22) 10px,
+        rgb(0, 0, 0) 0px,
+        rgb(0, 0, 0) 20px
+    );
+}
+
 /* *-- page background -- */
 body {
     background-color: #64acc9;
     height: 910px;
+}
+
+/* *-- snow on the ground -- */
+.snow {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    bottom: -55px;
+    left: 0;
+    z-index: -1;
 }
